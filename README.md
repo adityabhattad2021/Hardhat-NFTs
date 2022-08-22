@@ -1,4 +1,4 @@
-# In this project has thre types of NFT contracts:
+# This project has three types of NFT contracts:
 
 1. Basic NFT: the contract only has a TokenURI access which is already pinned image on Ipfs Manually.
 
@@ -13,3 +13,27 @@
 
         Pros: The data will be on chain
         Cons: Much more expensive
+
+
+## To interact with the project:
+
+1. Setup
+```
+git clone https://github.com/adityabhattad2021/Hardhat-NFTs.git
+cd Hardhat-NFTs
+yarn
+```
+
+2. Usage
+
+ i. Deploy:
+```
+yarn hardhat deploy
+```
+ ii. Mint
+```
+yarn hardhat deploy --tags main,mint
+```
+
+
+# Thankyou for visiting the project!
